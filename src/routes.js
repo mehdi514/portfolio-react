@@ -18,7 +18,6 @@ const Routes = () => {
     <>
       <BrowserRouter>
         <Header />
-        {/* <Hero /> */}
         <Switch>
           <main id="main">
             <Route path="/" exact component={Hero} />
