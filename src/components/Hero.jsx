@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="hero-container" data-aos="fade-in">
         <h1>Muhammad Mehdi</h1>
         <p>
-          I'm 
+          UI/UX
           <span
             className="typed"
             data-typed-items="Designer, Developer, Freelancer, Photographer"

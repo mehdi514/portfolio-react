@@ -2,6 +2,8 @@ import React from "react";
 import img1 from "../assets/img/mehdi.jpg";
 import { NavLink } from "react-router-dom";
 
+import '../assets/js/main.js';
+
 const Header = () => {
   return (
     <React.Fragment>
@@ -67,7 +69,7 @@ const Header = () => {
             </ul>
           </nav>
           <button type="button" className="mobile-nav-toggle d-xl-none">
-            <i className="icofont-navigation-menu"></i>
+            <i className="fas fa-bars"></i>
           </button>
         </div>
       </header>
