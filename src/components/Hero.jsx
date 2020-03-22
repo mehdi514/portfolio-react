@@ -12,9 +12,9 @@ const Hero = () => {
         <p>
           I'm 
           <span
-            // className="typed"
-            // data-typed-items="Designer, Developer, Freelancer, Photographer"
-          >Developer</span>
+            className="typed"
+            data-typed-items="Designer, Developer, Freelancer, Photographer"
+          > Developer</span>
         </p>
       </div>
     </section>

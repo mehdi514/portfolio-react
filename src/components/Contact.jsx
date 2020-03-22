@@ -19,19 +19,19 @@ const Contact = () => {
           <div className="col-lg-5 d-flex align-items-stretch">
             <div className="info">
               <div className="address">
-                <i className="icofont-google-map"></i>
+                <i className="fas fa-map"></i>
                 <h4>Location:</h4>
                 <p>A108 Adam Street, New York, NY 535022</p>
               </div>
 
               <div className="email">
-                <i className="icofont-envelope"></i>
+                <i className="fas fa-envelope"></i>
                 <h4>Email:</h4>
                 <p>info@example.com</p>
               </div>
 
               <div className="phone">
-                <i className="icofont-phone"></i>
+                <i className="fas fa-phone"></i>
                 <h4>Call:</h4>
                 <p>+1 5589 55488 55s</p>
               </div>

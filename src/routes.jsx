@@ -11,22 +11,22 @@ import Services from "./components/Services";
 import Skills from "./components/Skills";
 import Testimonial from "./components/Testimonial";
 import Resume from "./components/Resume";
-import Home from './components/index';
+import Home from "./components/index";
 
 const Routes = () => {
   return (
     <>
       <BrowserRouter>
         <Header />
-        <Hero />
+        {/* <Hero /> */}
         <Switch>
           <main id="main">
-            <Route path="/" component={Home} />
-            <Route path="/about" component={About} />
+            <Route path="/" exact component={Hero} />
+            <Route path="/about" exact component={About} />
             <Route path="/facts" component={Facts} />
             <Route path="skills" component={Skills} />
             <Route path="/resume" component={Resume} />
-            <Route path="/porfolio" component={Portfolio} />
+            <Route path="/portfolio" component={Portfolio} />
             <Route path="/services" component={Services} />
             <Route path="/testimonial" component={Testimonial} />
             <Route path="/contact" component={Contact} />

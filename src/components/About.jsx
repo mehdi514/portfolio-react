@@ -1,5 +1,5 @@
 import React from "react";
-import img2 from "../assets/img/profile-img.jpg";
+import img2 from "../assets/img/coverpage.jpg";
 
 const About = () => {
   return (
@@ -31,27 +31,27 @@ const About = () => {
                 <ul>
                   <li>
                     <i className="icofont-rounded-right"></i>
-                    <strong>Birthday:</strong> 1 May 1995
+                    <strong>Birthday:</strong> 22 Dec 1998
                   </li>
                   <li>
                     <i className="icofont-rounded-right"></i>
-                    <strong>Website:</strong> www.example.com
+                    <strong>Website:</strong> www.mehdiportfolio.com
                   </li>
                   <li>
                     <i className="icofont-rounded-right"></i>
-                    <strong>Phone:</strong> +123 456 7890
+                    <strong>Phone:</strong> +92 307 8210840
                   </li>
                   <li>
                     <i className="icofont-rounded-right"></i> <strong>City:</strong>
-                    City : New York, USA
+                    City : Lahore, Pakistan
                   </li>
                 </ul>
               </div>
               <div className="col-lg-6">
                 <ul>
                   <li>
-                    <i className="icofont-rounded-right"></i> <strong>Age:</strong>
-                    30
+                    <i className="icofont-rounded-right"></i> <strong>Age: </strong>
+                     23
                   </li>
                   <li>
                     <i className="icofont-rounded-right"></i>
@@ -59,7 +59,7 @@ const About = () => {
                   </li>
                   <li>
                     <i className="icofont-rounded-right"></i>
-                    <strong>PhEmailone:</strong> email@example.com
+                    <strong>PhEmailone:</strong> mehdikhan514@gmail.com
                   </li>
                   <li>
                     <i className="icofont-rounded-right"></i>

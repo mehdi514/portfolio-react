@@ -18,7 +18,7 @@ const Services = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
             <div className="icon">
-              <i className="icofont-computer"></i>
+              <i className="fas fa-laptop-code"></i>
             </div>
             <h4 className="title">
               <a href="">Lorem Ipsum</a>
@@ -34,7 +34,7 @@ const Services = () => {
             data-aos-delay="100"
           >
             <div className="icon">
-              <i className="icofont-chart-bar-graph"></i>
+              <i className="far fa-chart-bar"></i>
             </div>
             <h4 className="title">
               <a href="">Dolor Sitema</a>
@@ -50,7 +50,7 @@ const Services = () => {
             data-aos-delay="200"
           >
             <div className="icon">
-              <i className="icofont-earth"></i>
+              <i className="fas fa-globe"></i>
             </div>
             <h4 className="title">
               <a href="">Sed ut perspiciatis</a>
@@ -66,7 +66,7 @@ const Services = () => {
             data-aos-delay="300"
           >
             <div className="icon">
-              <i className="icofont-image"></i>
+              <i className="fas fa-image"></i>
             </div>
             <h4 className="title">
               <a href="">Magni Dolores</a>
@@ -82,7 +82,7 @@ const Services = () => {
             data-aos-delay="400"
           >
             <div className="icon">
-              <i className="icofont-settings"></i>
+              <i className="fas fa-cogs"></i>
             </div>
             <h4 className="title">
               <a href="">Nemo Enim</a>
@@ -98,7 +98,7 @@ const Services = () => {
             data-aos-delay="500"
           >
             <div className="icon">
-              <i className="icofont-tasks-alt"></i>
+              <i className="fas fa-tasks"></i>
             </div>
             <h4 className="title">
               <a href="">Eiusmod Tempor</a>
