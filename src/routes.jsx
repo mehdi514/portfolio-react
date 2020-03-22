@@ -1,6 +1,5 @@
 import React from "react";
-import Route from "react-router-dom/Route";
-import { BrowserRouter, Switch } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -11,30 +10,40 @@ import Services from "./components/Services";
 import Skills from "./components/Skills";
 import Testimonial from "./components/Testimonial";
 import Resume from "./components/Resume";
-import Home from "./components/index";
+// import Home from "./components/index";
 
-const Routes = () => {
+const renderRoutes = () => {
   return (
-    <>
-      <BrowserRouter>
+    <BrowserRouter>
+      <div>
         <Header />
         {/* <Hero /> */}
         <Switch>
-          <main id="main">
-            <Route path="/" exact component={Hero} />
-            <Route path="/about" exact component={About} />
-            <Route path="/facts" component={Facts} />
-            <Route path="skills" component={Skills} />
-            <Route path="/resume" component={Resume} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/services" component={Services} />
-            <Route path="/testimonial" component={Testimonial} />
-            <Route path="/contact" component={Contact} />
-          </main>
+          {/* <main id="main"> */}
+          {/* <Route
+            path="/"
+            render={props => (
+              <AppRoute Component={Hero} props={props} />
+            )}
+          /> */}
+          <Route path="/" component={Hero} />
+          <Route path="/about" exact component={About} />
+          <Route path="/facts" component={Facts} />
+          <Route path="skills" component={Skills} />
+          <Route path="/resume" component={Resume} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/services" component={Services} />
+          <Route path="/testimonial" component={Testimonial} />
+          <Route path="/contact" component={Contact} />
+          {/* </main> */}
         </Switch>
-      </BrowserRouter>
-    </>
+      </div>
+    </BrowserRouter >
   );
 };
 
-export default Routes;
+const AppRoute = ({ Component, props }) => {
+  return <Component {...props} />
+};
+
+export default renderRoutes;
